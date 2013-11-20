@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>無題ドキュメント</title>
+<style type="text/css">
+ul {
+	padding-top: 20px;
+}
+ul li {
+	display: block;
+	list-style-type: none;
+	width: 250px;
+	height: 250px;
+	margin-right: 10px;
+	float: left;
+	background-color: #CDCDCD;
+	text-align: center;
+	overflow-y: hidden;
+}
+
+ul li div {
+	top: 200px;
+	position: relative;
+	line-height: 2em;
+	background-color: #000000;
+	color: #fff;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+ul li div:hover {
+	top: 135px;
+}
+</style>
+</head>
+
+<body>
+<section>
+<h1>マウスオーバーで説明文がせり上がってくるようなものを作る</h1>
+<p>他の要素をトランジションさせる事はできないので、あくまでも自分が動かないとダメです。</p>
+<section>
+<ul>
+<li>商品１<div>品名<br>価格<br>在庫◯</div></li>
+<li>商品２<div>品名<br>価格<br>在庫◯</div></li>
+<li>商品３<div>品名<br>価格<br>在庫◯</div></li>
+</ul>
+</section>
+</section>
+</body>
+</html>
