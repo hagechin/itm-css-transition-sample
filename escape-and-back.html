@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>サンプル｜バナーに光彩を設定する</title>
+<style type="text/css">
+body {
+	background-color: #000000;
+}
+.bnr {
+	width: 250px;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #8A8282;
+	margin-top: 250px;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+.bnr div {
+	color: #FFFFFF;
+	text-align: center;
+}
+.bnr:hover {
+	margin-top: 0px;
+}
+</style>
+</head>
+
+<body>
+<h1>トランジションしすぎてhoverが切れるとビクンビクンなる</h1>
+<p>枠の下の方にポインタをもっていって少し動かし続けると…</p>
+<div class="bnr">
+	<div>バナーです</div>
+</div>
+</body>
+</html>
