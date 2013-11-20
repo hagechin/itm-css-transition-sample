@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>サンプル｜長い時間かけて背景色とテキストが変わる</title>
+<style type="text/css">
+body {
+	-webkit-transition: all 60s linear 0s;
+	-o-transition: all 60s linear 0s;
+	transition: all 60s linear 0s;
+}
+body:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<article>
+<h1>30秒ぐらいかかるトランジションをどうやって使うのか</h1>
+<p>CSSトランジションは長い時間再生させる用途が考えにくいのだけど、たとえば、背景色とテキスト色をじわじわ入れ替えていくようなのって面白いかもしれないと思って作りました。<br>
+あまり面白くなかった。テキストにマウスオーバーで60秒のトランジションが開始されます。</p>
+</article>
+</body>
+</html>
